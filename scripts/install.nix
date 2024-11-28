@@ -30,7 +30,7 @@ writeShellApplication {
     	-o pipefail
 
     # Config constants
-    readonly CONFIG_REPO="Maka-77x/dotfiles"         # Dotfile config repo name
+    readonly CONFIG_REPO="Maka-77x/dotfiles_003"         # Dotfile config repo name
     readonly FLAKE="github:$CONFIG_REPO"                   # Flake URL
     readonly MOUNT_DIR="/mnt"                              # Where drive is mounted by disko (set by disko, not config)
     readonly PERSIST_DIR="/persist"                        # Persistent partition mount location
